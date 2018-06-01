@@ -1,0 +1,17 @@
+查看分支
+git branch
+创建分支
+git checkout -b dev
+删除分支
+git branch -d dev
+切换到xxx分支
+git checkout master(xxx)
+
+把dev分支合并到当前分支（master上）
+git merge dev
+
+查看分支合并情况
+git log --graph --pretty=oneline --abbrev-commit
+
+推送分支
+git push origin dev
